@@ -1,11 +1,12 @@
-確認用のURLは、
-
-http://shintaro.kakutani.com/dojo-gathering/
-
-(とうぜんこれは作業用ですよ)
-
 本番用のURLは、
 
 http://agile-samurai-ja.github.com/dojo-gathering
 
 がトップページ。
+
+確認用のURLは、
+
+http://shintaro.kakutani.com/dojo-gathering/
+
+(認証はかけてないので見えちゃうけど、ソースはprivate repoにあります。作業用。
+ちょっとやってみたけど、gh-pages じゃないブランチで作業すれば良いだけかもなあ)
