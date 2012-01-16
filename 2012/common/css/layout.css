@@ -139,8 +139,13 @@ footer .copy
 #main ul
 {
 	padding-left:15px;
+	line-height:150%;
 }
 
+#content #social_box
+{
+	margin-top:30px;
+}
 #content #social_box  .twitter,
 #content #social_box .hatena
 {
