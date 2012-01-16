@@ -116,8 +116,7 @@ footer .copy
 #main h2
 {
 	display:block;
-	
-	
+	margin-top:10px;
 	margin-bottom:10px;
 	background-repeat:no-repeat;
 	background-position: left center;
@@ -131,4 +130,9 @@ footer .copy
 	display:block;
 	margin-bottom:10px;
 	clear:both;
+}
+
+#main ul
+{
+	padding-left:15px;
 }
