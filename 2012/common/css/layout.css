@@ -1,0 +1,121 @@
+/* CSS Document */
+
+h1
+{
+	font-size:10px;
+	text-align:right;
+	color:#FFF;
+	font-weight:normal;
+	padding-right:10px;
+}
+h1 a
+{
+	color:#FFF;
+}
+h1 a:hover
+{
+	color:#bbc8e6; /*淡藤色 あわふじいろ */
+}
+
+#content
+{
+	background-color:#FFF;
+	text-align:left;
+	padding:10px;
+	background-image:url(../images/bg_content.gif);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	min-height:400px !important;
+}
+header
+{
+	text-align:left;
+	border-bottom:3px solid #bbc8e6; /*淡藤色 あわふじいろ */
+}
+footer
+{
+	text-align:left;
+	/*border-top:5px solid #bbc8e6; /*淡藤色 あわふじいろ */
+
+}
+footer .copy
+{
+	color:#FFF;
+	text-align:right;
+	padding:10px;
+}
+
+#side
+{
+	width:200px;
+	padding-left:10px;
+	float:right;
+	margin-bottom:50px;
+	background-color:#FFF;
+}
+#side nav ul
+{
+	list-style-type: none;
+}
+#side nav ul.menu li
+{
+	padding-bottom:3px;
+}
+#side nav ul.menu li a
+{
+	display:block;
+	width:180px;;
+	background-color:#5a79ba;
+	
+	color:#FFF;
+	font-size:16px;
+	padding:3px;
+	
+	border-radius: 7px;        /* CSS3草案 */  
+	-webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+	-moz-border-radius: 7px;   /* Firefox用 */  
+	border:2px solid #bbc8e6;
+	
+	background-image:url(../images/bg_menu.png);
+	background-repeat:no-repeat;
+	background-position: left center;
+	
+}
+
+#side nav ul.menu li a span
+{
+	
+	display:block;
+	padding-left:35px;
+	
+}
+#side nav ul.menu li a:hover
+{
+	color:#fef4f4; /*サクラ*/
+	background-color:#192f60; /*紺青*/
+	background-image:url(../images/bg_menu_on.png);
+
+}
+#main
+{
+	display:block;
+	top:10px;
+	position:static;
+	left:10px;
+}
+
+#main h2
+{
+	display:block;
+	margin-bottom:10px;
+	background-repeat:no-repeat;
+	background-position: left center;
+	border-bottom:3px solid #bbc8e6; /*淡藤色 あわふじいろ */
+	color:#5a79ba;
+	font-size:18px;
+}
+#main h3
+{
+	display:block;
+	margin-bottom:10px;
+}
