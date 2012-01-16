@@ -128,8 +128,12 @@ footer .copy
 #main h3
 {
 	display:block;
+	margin-top:10px;
 	margin-bottom:10px;
 	clear:both;
+	border-bottom:1px dotted #bbc8e6; /*淡藤色 あわふじいろ */
+	color:#5a79ba;
+	font-size:12px;
 }
 
 #main ul
