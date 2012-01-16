@@ -1,5 +1,4 @@
 /* CSS Document */
-
 h1
 {
 	font-size:10px;
@@ -16,16 +15,22 @@ h1 a:hover
 {
 	color:#bbc8e6; /*淡藤色 あわふじいろ */
 }
-
-#content
+#wrap
 {
+	width:100%;
 	background-color:#FFF;
-	text-align:left;
-	padding:10px;
 	background-image:url(../images/bg_content.gif);
 	background-repeat:no-repeat;
 	background-position:right bottom;
+}
+#content
+{
+	text-align:left;
 	min-height:400px !important;
+	width:980px;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
 }
 header
 {
@@ -48,32 +53,37 @@ footer .copy
 #side
 {
 	width:200px;
-	padding-left:10px;
 	float:right;
 	margin-bottom:50px;
-	background-color:#FFF;
+}
+#side nav
+{
+	display:block;
+	padding:10px;
 }
 #side nav ul
 {
+	
 	list-style-type: none;
 }
 #side nav ul.menu li
 {
 	padding-bottom:3px;
+	padding-right:10px;
 }
 #side nav ul.menu li a
 {
 	display:block;
-	width:180px;;
+	width:100%;
 	background-color:#5a79ba;
 	
 	color:#FFF;
 	font-size:16px;
 	padding:3px;
 	
-	border-radius: 7px;        /* CSS3草案 */  
-	-webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
-	-moz-border-radius: 7px;   /* Firefox用 */  
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
 	border:2px solid #bbc8e6;
 	
 	background-image:url(../images/bg_menu.png);
@@ -99,23 +109,26 @@ footer .copy
 #main
 {
 	display:block;
-	top:10px;
-	position:static;
-	left:10px;
+	width:779px;
+	float:left;
 }
 
 #main h2
 {
 	display:block;
+	
+	
 	margin-bottom:10px;
 	background-repeat:no-repeat;
 	background-position: left center;
 	border-bottom:3px solid #bbc8e6; /*淡藤色 あわふじいろ */
 	color:#5a79ba;
 	font-size:18px;
+	clear:both;
 }
 #main h3
 {
 	display:block;
 	margin-bottom:10px;
+	clear:both;
 }
