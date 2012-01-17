@@ -16,7 +16,7 @@ header, section, footer, aside, nav, article, figure {
 
 html {
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
-	font-size: 14px;
+	font-size: 15px;
 	color: #333;
 }
 
@@ -42,7 +42,7 @@ html
 	margin:0px;
 	height:100%;
 	background-color:#5a79ba; /*色 薄花桜 うすはなざくら*/
-	font-size: 14px;
+	font-size: 15px;
 }
 
 body

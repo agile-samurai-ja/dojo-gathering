@@ -52,14 +52,14 @@ footer .copy
 
 #side
 {
-	width:200px;
+	width:225px;
 	float:right;
 	margin-bottom:50px;
 }
 #side nav
 {
 	display:block;
-	padding:10px;
+	padding:8px;
 }
 #side nav ul
 {
@@ -78,7 +78,7 @@ footer .copy
 	background-color:#5a79ba;
 	
 	color:#FFF;
-	font-size:16px;
+	font-size:18px;
 	padding:3px;
 	
 	border-radius: 7px;
@@ -109,7 +109,7 @@ footer .copy
 #main
 {
 	display:block;
-	width:779px;
+	width:754px;
 	float:left;
 }
 
