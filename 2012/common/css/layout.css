@@ -1,4 +1,7 @@
 /* CSS Document */
+
+
+
 h1
 {
 	font-size:10px;
@@ -13,8 +16,31 @@ h1 a
 }
 h1 a:hover
 {
-	color:#bbc8e6; /*淡藤色 あわふじいろ */
+	color:#bbc8e6; /*淡藤色 */
 }
+
+table
+{
+	width:100%;
+	border: 1px  solid #CCC;
+	border-collapse: collapse;
+	margin-bottom:20px;
+}
+table tr th
+{
+	padding:3px;
+	background-color:#eaf4fc; /*月白 */
+	border: 1px  solid #CCC;
+}
+
+table tr td
+{
+	padding:3px;
+	border: 1px  solid #CCC;
+}
+
+
+
 #wrap
 {
 	width:100%;
@@ -35,12 +61,12 @@ h1 a:hover
 header
 {
 	text-align:left;
-	border-bottom:3px solid #bbc8e6; /*淡藤色 あわふじいろ */
+	border-bottom:3px solid #bbc8e6; /*淡藤色 */
 }
 footer
 {
 	text-align:left;
-	/*border-top:5px solid #bbc8e6; /*淡藤色 あわふじいろ */
+	/*border-top:5px solid #bbc8e6; /*淡藤色 */
 
 }
 footer .copy
@@ -50,6 +76,9 @@ footer .copy
 	padding:10px;
 }
 
+/*---------------------------------------------------------------------
+| #side
+---------------------------------------------------------------------*/
 #side
 {
 	width:225px;
@@ -106,6 +135,9 @@ footer .copy
 	background-image:url(../images/bg_menu_on.png);
 
 }
+/*---------------------------------------------------------------------
+| #main
+---------------------------------------------------------------------*/
 #main
 {
 	display:block;
@@ -116,7 +148,7 @@ footer .copy
 #main h2
 {
 	display:block;
-	margin-top:10px;
+	margin-top:20px;
 	margin-bottom:10px;
 	background-repeat:no-repeat;
 	background-position: left center;
@@ -142,6 +174,49 @@ footer .copy
 	line-height:150%;
 }
 
+#main .master_sensei
+{
+	margin-bottom:20px;
+}
+
+#main .master_sensei .parson
+{
+	width:230px;
+	float:left;
+	display:block;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+#main .master_sensei .parson .image
+{
+	border:1px solid #CCC; 
+	border-bottom:0px;
+	padding:10px 0px 0px 0px;
+}
+
+#main .master_sensei .parson .name
+{
+	border:1px solid #CCC;
+	border-bottom:0px;
+	border-top:0px;
+}
+#main .master_sensei .parson .twitter
+{
+	border:1px solid #CCC;
+	border-bottom:0px; 
+	border-top:0px;
+}
+#main .master_sensei .parson .title
+{
+	border:1px solid #CCC;
+	padding:5px;
+	background-color:#eaf4fc; /*月白*/
+}
+
+/*---------------------------------------------------------------------
+| #content
+---------------------------------------------------------------------*/
 #content #social_box
 {
 	margin-top:30px;

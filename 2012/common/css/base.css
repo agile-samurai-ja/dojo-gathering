@@ -70,12 +70,6 @@ form{
 	display:inline;
 }
 
-h3.h3_title
-{
-	border-bottom:dashed #CCC 1px;
-	margin-top:10px;
-}
-
 .clear
 {
 	text-indent:-9999px;
