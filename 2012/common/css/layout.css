@@ -1,6 +1,9 @@
 /* CSS Document */
 
-
+body
+{
+	min-width:1000px !important;
+}
 
 h1
 {
@@ -31,6 +34,7 @@ table tr th
 	padding:3px;
 	background-color:#eaf4fc; /*月白 */
 	border: 1px  solid #CCC;
+	font-weight:normal;
 }
 
 table tr td
@@ -174,12 +178,16 @@ footer .copy
 	line-height:150%;
 }
 
-#main .master_sensei
+#main .master_sensei,
+#main .anchorpeople,
+#main .youjinbou
 {
 	margin-bottom:20px;
 }
 
-#main .master_sensei .parson
+#main .master_sensei .parson,
+#main .anchorpeople .parson,
+#main .youjinbou .parson
 {
 	width:230px;
 	float:left;
@@ -187,37 +195,35 @@ footer .copy
 	text-align:center;
 	padding-left:10px;
 	padding-right:10px;
+	padding-bottom:10px;
 }
-#main .master_sensei .parson .image
+#main .master_sensei .parson .image,
+#main .anchorpeople .parson .image,
+#main .youjinbou .parson .image
 {
 	border:1px solid #CCC; 
 	border-bottom:0px;
 	padding:10px 0px 0px 0px;
 }
 
-#main .master_sensei .parson .name
+#main .master_sensei .parson .name,
+#main .anchorpeople  .parson .name,
+#main .youjinbou .parson .name
 {
 	border:1px solid #CCC;
 	border-bottom:0px;
 	border-top:0px;
 }
-#main .master_sensei .parson .twitter
-{
-	border:1px solid #CCC;
-	border-bottom:0px; 
-	border-top:0px;
-}
-#main .master_sensei .parson .title
+#main .master_sensei .parson .title,
+#main .anchorpeople .parson .title,
+#main .youjinbou .parson .title
 {
 	border:1px solid #CCC;
 	padding:5px;
 	background-color:#eaf4fc; /*月白*/
+	font-size:12px;
 }
 
-#main .topimage
-{
-	margin-bottom:10px;
-}
 /*---------------------------------------------------------------------
 | #content
 ---------------------------------------------------------------------*/
@@ -244,3 +250,60 @@ footer .copy
 	width:300px;
 	clear:both;
 }
+
+/*
+| タイムテーブル
+*/
+#main .time_table tr th
+{
+	width:130px;
+	text-align:center;
+	vertical-align:top;
+}
+
+/*---------------------------------------------------------------------
+| page_speakers
+---------------------------------------------------------------------*/
+#main.page_speakers .parson
+{
+	width:220px;
+	float:left;
+}
+
+#main.page_speakers .parson  .title
+{
+	border:1px solid #CCC;
+	padding:5px;
+	background-color:#eaf4fc; /*月白*/
+	font-size:12px;
+	text-align:center;
+}
+#main.page_speakers .parson  .image
+{
+	border:1px solid #CCC;
+	border-bottom:none;
+	padding:10px 0px 0px 0px;
+	text-align:center;
+}
+#main.page_speakers .parson  .name
+{
+	border:1px solid #CCC;
+	border-bottom:none;
+	border-top:none;
+	padding:0px 5px 5px 0px;
+	text-align:center;
+}
+
+#main.page_speakers .history
+{
+	width:500px;
+	float:left;
+	padding-left:10px;
+	line-height:150%;
+}
+#main.page_speakers .history p
+{
+	padding-bottom:15px;
+}
+
+
