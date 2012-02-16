@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+/*
+ * @author  MIYAGAWA Takako <info@nekoget.net>
+ * @create  2009.07.24
+*/
+
+
+/* ----------------------------------------
+| ベース
+-------------------------------------------*/
+/*HTML5 Block*/
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+html {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+	font-size: 15px;
+	color: #333;
+}
+
+a,
+a:active,
+a:visited
+{
+	color:#5a79ba; /*色 薄花桜 うすはなざくら*/
+	text-decoration: none;	
+}
+a:hover
+{
+	color:#ea5506; /*金赤 きんあか */
+}
+
+
+body,
+html
+{
+	width:100%;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	height:100%;
+	background-color:#5a79ba; /*色 薄花桜 うすはなざくら*/
+	font-size: 15px;
+}
+
+body
+{
+	display:block;
+	min-width:350px !important;
+}
+
+div, table , tr, th, td , p ,h1 ,h2,h3,h4,ul,li
+{
+	margin:0px;
+	padding:0px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:100%;
+}
+div, table , tr, th, td , p ,ul,li
+{
+	font-size:100%;
+}
+
+img{
+	border:none;
+}
+form{
+	display:inline;
+}
+
+.clear
+{
+	text-indent:-9999px;
+	font-size:1px;
+	clear:both;
+}
+

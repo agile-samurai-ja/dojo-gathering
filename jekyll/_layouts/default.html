@@ -14,7 +14,7 @@
 <meta property="fb:admins" content="666701691" />
 <link href="common/images/favicon.png" rel="icon" type="image/png">
 <link rel="stylesheet" type="text/css" href="common/css/import.css">
-<title>Agile Samurai Dojo Gathering | トップページ</title>
+<title>Agile Samurai Dojo Gathering{% if page.title %} | {{ page.title }}{% endif %}</title>
 
 <script type="text/javascript" src="common/js/jquery.js"></script>
 <script type="text/javascript" src="common/js/base.js"></script>
@@ -31,7 +31,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<h1><a href="/2012">Agile Samurai Dojo Gathering</a> | トップページ</h1>
+<h1><a href="/2012">Agile Samurai Dojo Gathering</a>{% if page.title %} | {{ page.title }}{% endif %}</h1>
 
 <!-- start header -->
 <header>
@@ -101,49 +101,7 @@
 
 	<!-- start main-->
 	<div id="main">
-      <div class="topimage"><img alt="Agile Samurai Dojo Gathering" src="images/topimage.jpg" width="740" height="250"></div>
-<p><a href="http://atnd.org/events/19733">アジャイルサムライ他流試合</a>から半年。<br>
-ふたたび道場大集合といこうじゃあありませんか。レッツギャザリング！</p>
-    <p>まずは日程をお知らせします。登録開始時期やコンテンツについては、決定次第お伝えします。</p>
-    </p>
-    <h2>開催概要</h2>
-    
-    <ul>
-      <li>Date: <strong>2012.03.24(Sat)</strong></li>
-      <li>Venue: <a href="outline.html#map">オラクル青山センター （東京都港区北青山2-5-8）</a></li>
-      <li>Registration: 有料</li>
-    </ul>
-
-
-	<h2>マスター・センセイ</h2>
-	<div class="master_sensei">
-		<div class="parson">
-			<div class="image"><a href="speakers/Jonathan_Rasmusson.html"><img src="images/profile_jrasmusson.jpg" width="200" height="200"></a></div>
-			<p class="name"><a href="speakers/Jonathan_Rasmusson.html">Jonathan Rasmusson 氏</a></p>
-			<p class="title">『アジャイルサムライ』原著者</p>
-		</div>
-		
-		<div class="parson">
-			<div class="image"><a href="speakers/nawoto.html"><img src="images/profile_nawoto.jpg"  width="200" height="200"></a></div>
-			<p class="name"><a href="speakers/nawoto.html">西村 直人 氏</a></p>
-			<p class="title">『アジャイルサムライ』監訳者</p>
-		</div>
-		
-		<div class="parson">
-			<div class="image"><img src="images/profile_kakutani.jpg"  width="200" height="200"></div>
-			<p class="name"><a href="speakers/kakutani.html">角谷 信太郎 氏</a></p>
-			<p class="title">『アジャイルサムライ』監訳者</p>
-		</div>
-		<p class="clear"> </p>
-	</div>
-
-
-	<h2>協賛イベント</h2>
-		<ul>
-			<li><a href="http://agilejapan.org/">Agile Japan 2012</a>(2012.03.16(Fri), 大阪)</li>
-			<li><a href="http://agile-samurai-ja.github.com/training/">アジャイルサムライトレーニング</a>(2012.03.22(Thu),23(Fri), 東京)</li>
-	</ul>
-
+      {{ content }}
     </div>
 	<!-- end main-->
 	

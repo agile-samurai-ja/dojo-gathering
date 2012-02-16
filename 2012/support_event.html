@@ -59,25 +59,55 @@
 				<li><a href="support_event.html"><span>協賛イベント</span></a></li>
 			</ul>
 		</nav>
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '#agilesamurai',
+      interval: 6000,
+      title: '',
+      subject: '#agilesamurai',
+      width: 209,
+      height: 350,
+      theme: {
+      shell: {
+      background: '#5A79BA',
+      color: '#ffffff'
+      },
+      tweets: {
+      background: '#ffffff',
+      color: '#5A79BA',
+      links: '#5A79BA'
+      }
+      },
+      features: {
+      scrollbar: false,
+      loop: true,
+      live: true,
+      hashtags: true,
+      timestamp: true,
+      avatars: true,
+      toptweets: true,
+      behavior: 'default'
+      }
+      }).render().start();
+    </script>
+
+
 	</div>
 	<!-- end side -->
 
 
 	<!-- start main-->
 	<div id="main">
-
-
-	<h2>協賛イベント</h2>
-	<ul>
+      <h2>協賛イベント</h2>
+<ul>
 		<li><a href="http://agilejapan.org/">Agile Japan 2012</a>(2012.03.16(Fri), 大阪)</li>
 		<li><a href="http://agile-samurai-ja.github.com/training/">アジャイルサムライトレーニング</a>(2012.03.22(Thu),23(Fri), 東京)</li>
-	</ul>
+</ul>
 
-
-
-
-
-	</div>
+    </div>
 	<!-- end main-->
 	
 	<p class="clear"> </p>
