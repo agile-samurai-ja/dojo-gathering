@@ -10,6 +10,8 @@ _layout/default.html がレイアウトファイル
 ページ生成方法
 ====================
 
+::
+
   $ cd jekyll
   $ jekyll ../2012
 
