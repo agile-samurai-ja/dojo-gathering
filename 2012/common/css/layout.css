@@ -306,4 +306,13 @@ footer .copy
 	padding-bottom:15px;
 }
 
+/*
+| outline
+*/
+
+#main .outline_text p
+{
+	padding-bottom:10px;
+}
+
 
