@@ -1,24 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8" />
-
-<meta content='2012.03.24(土)に開催される『アジャイルサムライ』の読者と実践者の集い' name='description' />
-<meta content='アジャイル,開発,Agile,アジャイルサムライ,Agile Samurai,アジャイル開発, Jonathan Rasmusson, Scrum, スクラム, XP, Lean, リーン' name='keywords' />
-<meta content='2012.03.24開催' property='og:title' />
-<meta content='article' property='og:type' />
-<meta content='http://agile-samurai-ja.github.com/dojo-gathering/' property='og:url' />
-<meta content='http://agile-samurai-ja.github.com/dojo-gathering/images/agile-samurai-ja-small.gif' property='og:image' />
-<meta content='Agile Samurai Dojo Gathering' property='og:site_name' />
-<meta content='2012.03.24(土)に東京都内で『アジャイルサムライ』の原著者であるJonathan Rasmussonを招いたイベントを開催します。「アジャイルサムライ他流試合」以来の書籍に関連したイベントです。監訳者たちももちろん参加します。' property='og:description' />
-<meta property="fb:admins" content="666701691" />
-<link href="common/images/favicon.png" rel="icon" type="image/png">
-<link rel="stylesheet" type="text/css" href="common/css/import.css">
-<title>Agile Samurai Dojo Gathering{% if page.title %} | {{ page.title }}{% endif %}</title>
-
-<script type="text/javascript" src="common/js/jquery.js"></script>
-<script type="text/javascript" src="common/js/base.js"></script>
-
+  {% include head.html %}
 </head>
 <body>
 
@@ -33,77 +16,18 @@
 
 <h1><a href="/2012">Agile Samurai Dojo Gathering</a>{% if page.title %} | {{ page.title }}{% endif %}</h1>
 
-<!-- start header -->
-<header>
-
-</header>
-<!-- end header -->
-
 <div id="wrap">
 <!-- start content-->
 <div id="content">
 	<div id="topimage">
 		<!-- topimage -->
 	</div>
-	<!-- start side-->
-	<div id="side">
-		<nav>
-			<ul class="menu">
-				<li><a href="index.html"><span>トップページ</span></a></li>
-				<li><a href="outline.html"><span>開催概要</span></a></li>
-				<li><a href="what_is_dojo.html"><span>道場とは？</span></a></li>
-				<li><a href="registration.html"><span>お申込み</span></a></li>
-				<li><a href="schedule.html"><span>タイムテーブル</span></a></li>
-				<li><a href="master.html"><span>マスターセンセイ</span></a></li>
-				<li><a href="sponsor.html"><span>スポンサー</span></a></li>
-				<li><a href="support_event.html"><span>協賛イベント</span></a></li>
-			</ul>
-		</nav>
-        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-    <script>
-      new TWTR.Widget({
-      version: 2,
-      type: 'search',
-      search: '#agilesamurai',
-      interval: 6000,
-      title: '',
-      subject: '#agilesamurai',
-      width: 209,
-      height: 350,
-      theme: {
-      shell: {
-      background: '#5A79BA',
-      color: '#ffffff'
-      },
-      tweets: {
-      background: '#ffffff',
-      color: '#5A79BA',
-      links: '#5A79BA'
-      }
-      },
-      features: {
-      scrollbar: false,
-      loop: true,
-      live: true,
-      hashtags: true,
-      timestamp: true,
-      avatars: true,
-      toptweets: true,
-      behavior: 'default'
-      }
-      }).render().start();
-    </script>
 
+    {% include sidebar.html %}
 
-	</div>
-	<!-- end side -->
-
-
-	<!-- start main-->
 	<div id="main">
       {{ content }}
     </div>
-	<!-- end main-->
 	
 	<p class="clear"> </p>
 	<div id="sponser_link"><!-- スポンサーリンク --></div>
@@ -130,7 +54,6 @@
 <!-- start footer -->
 <footer>
 	<div class="copy"> Agile Samurai Dojo Gathering </div>
-	
 </footer>
 <!-- end footer -->
 
