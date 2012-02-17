@@ -46,56 +46,7 @@
 		<!-- topimage -->
 	</div>
 	<!-- start side-->
-	<div id="side">
-		<nav>
-			<ul class="menu">
-				<li><a href="index.html"><span>トップページ</span></a></li>
-				<li><a href="outline.html"><span>開催概要</span></a></li>
-				<li><a href="what_is_dojo.html"><span>道場とは？</span></a></li>
-				<li><a href="registration.html"><span>お申込み</span></a></li>
-				<li><a href="schedule.html"><span>タイムテーブル</span></a></li>
-				<li><a href="master.html"><span>マスターセンセイ</span></a></li>
-				<li><a href="sponsor.html"><span>スポンサー</span></a></li>
-				<li><a href="support_event.html"><span>協賛イベント</span></a></li>
-			</ul>
-		</nav>
-        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-    <script>
-      new TWTR.Widget({
-      version: 2,
-      type: 'search',
-      search: '#agilesamurai',
-      interval: 6000,
-      title: '',
-      subject: '#agilesamurai',
-      width: 209,
-      height: 350,
-      theme: {
-      shell: {
-      background: '#5A79BA',
-      color: '#ffffff'
-      },
-      tweets: {
-      background: '#ffffff',
-      color: '#5A79BA',
-      links: '#5A79BA'
-      }
-      },
-      features: {
-      scrollbar: false,
-      loop: true,
-      live: true,
-      hashtags: true,
-      timestamp: true,
-      avatars: true,
-      toptweets: true,
-      behavior: 'default'
-      }
-      }).render().start();
-    </script>
-
-
-	</div>
+    {% include sidebar.html %}
 	<!-- end side -->
 
 
