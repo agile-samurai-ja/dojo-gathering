@@ -321,4 +321,29 @@ footer .copy
 	padding-bottom:10px;
 }
 
+/*
+| スポンサー
+*/
+#main.page_sponsor p
+{
+	line-height:150%;
+}
+#main.page_sponsor h4
+{
+	padding-bottom:5px;
+	padding-top:5px;
+}
 
+#main.page_sponsor ul
+{
+	padding:15px;
+}
+
+#main.page_sponsor .suponsor_format
+{
+	border:1px #CCC dotted;
+	background-color:#F5F5F5;
+	padding:10px;
+	margin-bottom:10px;
+	
+}
