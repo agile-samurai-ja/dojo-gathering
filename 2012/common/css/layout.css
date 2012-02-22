@@ -175,7 +175,15 @@ footer .copy
 	clear:both;
 	border-bottom:1px dotted #bbc8e6; /*淡藤色 あわふじいろ */
 	color:#32458A;
-	font-size:15px;
+	font-size:16px;
+}
+
+#main h4
+{
+	display:block;
+	clear:both;
+	color:#3D58BA;
+	font-size:13px;
 }
 
 #main ul
