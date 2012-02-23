@@ -175,7 +175,15 @@ footer .copy
 	clear:both;
 	border-bottom:1px dotted #bbc8e6; /*淡藤色 あわふじいろ */
 	color:#32458A;
-	font-size:15px;
+	font-size:16px;
+}
+
+#main h4
+{
+	display:block;
+	clear:both;
+	color:#3D58BA;
+	font-size:13px;
 }
 
 #main ul
@@ -321,4 +329,29 @@ footer .copy
 	padding-bottom:10px;
 }
 
+/*
+| スポンサー
+*/
+#main.page_sponsor p
+{
+	line-height:150%;
+}
+#main.page_sponsor h4
+{
+	padding-bottom:5px;
+	padding-top:5px;
+}
 
+#main.page_sponsor ul
+{
+	padding:15px;
+}
+
+#main.page_sponsor .suponsor_format
+{
+	border:1px #CCC dotted;
+	background-color:#F5F5F5;
+	padding:10px;
+	margin-bottom:10px;
+	
+}
