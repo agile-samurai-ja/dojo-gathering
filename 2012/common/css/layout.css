@@ -155,7 +155,8 @@ footer .copy
 	float:left;
 }
 
-#main h2
+#main h2,
+#sponser_link h2
 {
 	display:block;
 	margin-top:20px;
@@ -167,7 +168,8 @@ footer .copy
 	font-size:20px;
 	clear:both;
 }
-#main h3
+#main h3,
+sponser_link h3
 {
 	display:block;
 	margin-top:10px;
@@ -178,7 +180,8 @@ footer .copy
 	font-size:16px;
 }
 
-#main h4
+#main h4,
+sponser_link h4
 {
 	display:block;
 	clear:both;
@@ -354,4 +357,24 @@ footer .copy
 	padding:10px;
 	margin-bottom:10px;
 	
+}
+
+#sponser_link ul li 
+{
+	display:block;
+	width:230px;
+	height:230px;
+	float:left;
+}
+
+#sponser_link ul li span a
+{
+	display:block;
+	width:220px;
+	height:220px;
+	border:1px solid #CCC;
+	overflow:hidden;
+	text-align:center;
+	vertical-align:middle;
+	line-height:220px;
 }
