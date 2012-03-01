@@ -6,7 +6,7 @@ baseurl:    /
 url: http://localhost:4000
 
 source:      .
-destination: ../2012
+destination: ./_site
 plugins:     ./_plugins
 
 future:      true
